@@ -1,0 +1,158 @@
+@media (orientation:landscape) and (min-width:800px){
+
+    body {
+        align-items: center;
+        background-color: #fff;
+        margin: 0;
+    }
+    
+    .sidebar {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .titulofaterp {
+        color: #fff;
+        display: flex;
+    }
+    
+    .img2 {
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+    
+    .titlepg {
+        padding-top: 0.5rem;
+        text-align: center;
+    }
+    
+    div img{
+        border-radius: 2rem;
+        
+    }
+    
+    .div1 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15%;
+        padding-right: 15%;
+        gap: 2.5%;
+        max-height: 250px;
+        
+    }
+    
+    .div1 img {
+        max-width: 50%;
+        min-width: 50%;
+        margin-bottom: 1rem;
+        
+    }
+    
+    .div2 {
+        display: flex;
+        padding-left: 31.25%;
+        padding-right: 31.25%;
+        gap: 2.5%;
+        max-height: 300px;
+        
+    }
+    
+    .div2 img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .closebtn {
+        color: #111;
+    }
+    
+    .links {
+        display: flex;
+        gap: 1rem;
+        color: #fff;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        
+    }
+    
+    .menu-icon {
+        display: none;
+    }
+    
+    .closebtn {
+        display: none;
+    }
+    
+    }
+    
+    @media (max-width:799px) {
+    
+        body {
+            font-family: "Lato", sans-serif;
+        }
+        
+        .menu-icon {
+            font-size: 30px;
+            cursor: pointer;
+            position: fixed;
+            top: 15px;
+            left: 15px;
+        }
+        
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+        
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 15px;
+            color: #ffffff;
+            display: block;
+            transition: 0.3s;
+        }
+        
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+        
+        body h1 {
+            text-align: center;
+            margin-top: 3rem;
+        }
+    
+      
+    }
+
